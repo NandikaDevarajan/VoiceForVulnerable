@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+    .nav-container {
+        padding: 34px 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        margin: 0;
+    }
+    .section {
+        padding-top: 8rem;
+    }
+    .nav-container {
+        height: calc(var(--header-height) + 1.5rem);
+    }
+    .nav-toggle {
+        display: none;
+    }
+    .dark-light {
+        position: initial;
+        margin-left: var(--margin-2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+     :root {
+        --fs-13: 12px;
+    }
+    .article-card {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .img-box {
+        height: 180px;
+    }
+    .article-content {
+        padding: 30px 28px 20px;
+    }
+    .img-box,
+    .article-content {
+        border-radius: 0;
+    }
+    .article-title {
+        font-size: 15px;
+    }
+    .article-text {
+        margin-bottom: 30px;
+    }
+    .article-content-footer {
+        position: relative;
+    }
+    .author-avatar {
+        width: 35px;
+        height: 35px;
+    }
+    .podcast-container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .article-card {
+        width: 93%;
+        display: block;
+    }
+}

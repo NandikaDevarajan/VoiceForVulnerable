@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <!-- Home -->
+    <section class="home" id="home">
+        <header class="container-header-caption">
+            <img src="~/Assets/asset/images/home-main-caption.png" alt="Chat Speak Listen" class="home-img">
+        </header>
+        <div class="d-flex flex-container">
+            <div class="home-inner-wrapper">
+                <div class=" image-navigate-container">
+                    <a href="@Url.Action("Chatbot", "Home")" class="home-data">
+                        <img src="~/Assets/asset/images/home-left-content-final-removebg.png" alt="Chat Speak Listen" class="home-img img-btn-hover-state">
+                    </a>
+                    <a href="@Url.Action("Podcast", "Home")" class="home-data">
+                        <img src="~/Assets/asset/images/chat-bot-button-final-removebg.png" alt="Chat Speak Listen" class="home-img img-btn-hover-state">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- Scroll Reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="~/Assets/asset/js/index.js"></script>
+
+
